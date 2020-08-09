@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Érdekességek - Az ismeretlen Brazília</title>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="alapstilus.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<nav class="kipozicional">
+	<a href="#tartalom">Ugrás a tartalomra</a>
+	</nav>	
+<header>
+<div class="topnav" id="myTopnav">
+		<a href="index.html">Főoldal</a>
+		<a href="tortenelem.html">Történelem</a>
+		<a href="erdekessegek.html">Érdekességek</a>
+		<a class="active" href="kapcsolat.html">Kapcsolat</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+	<div class="container"><div class="centered">Az ismeretlen Brazília</div>
+	<a href="index.html">
+	<img src="cristo.jpg" alt="Megváltó Krisztus szobra alkonytkor a Corcovado-hegyen, Rio de Janeiro-ban" class="responsive"> </a>
+	</div>
+	<br>
+	
+</header>	
+
+<main>
+<h1 id="tartalom">Lépj kapcsolatba velünk!</h1>
+<br>
+<form action="mailto:gibsjaki@inf.elte.hu"
+	method="post"
+	enctype="text/plain">
+<fieldset>
+	<legend>Megjegyzésed van? Hibát találtál a honlapunkon? Ötleted van mivel tudnánk az oldalat bővteni? Vagy csak szeretnél portugálul tanulni?</legend>
+
+		
+		<label for="nev"><b>Név</b></label>
+		<br>
+		<input type="text" size="50" name="nev" id="nev">
+		<br>
+		<br>
+		<label for="email"><b>E-mail cím</b></label>
+		<br>
+		<input type="text" size="50" name="email" id="email">
+		<br>
+		<br>
+		<p>Hogyan értékelnéd a honlapunkat?</p>
+		<input type="radio" name="velemeny" value="1" id="vote1">
+		<label for="vote1">1</label>
+		<input type="radio" name="velemeny" value="2" id="vote2">
+		<label for="vote2">2</label>
+		<input type="radio" name="velemeny" value="3" id="vote3">
+		<label for="vote1">3</label>
+		<input type="radio" name="velemeny" value="4" id="vote4">
+		<label for="vote2">4</label>
+		<input type="radio" name="velemeny" value="5" id="vote5">
+		<label for="vote2">5</label>
+		<br>
+		<br>
+		<p>Mit hiányolsz honlapunkról? Lépj kapcsolatba velünk!</p>
+		<ul>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="1" id="v1"></div>
+			<div class="check"><label for="v1">Több történelem</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="2" id="v2"></div>
+			<div class="check"><label for="v2">Több gasztronómia</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="3" id="v3"></div>
+			<div class="check"><label for="v3">Több kultúra</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="4" id="v4"></div>
+			<div class="check"><label for="v4">Több földrajz/ gazdaság</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="5" id="v5"></div>
+			<div class="check"><label for="v5">Több egyéb érdekesség</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="6" id="v6"></div>
+			<div class="check"><label for="v6">Portugál nyelv alapjai</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="7" id="v7"></div>
+			<div class="check"><label for="v7">Hírek, politikai információk</label></div>
+		</li>
+		<li>
+			<div><input type="checkbox" name="velemeny" value="8" id="v8"></div>
+			<div class="check"><label for="v7">Egyéb (kérjük írd az alábbi üres mezőbe)</label></div>
+		</li>
+		<li>
+			<div class="check"><label for="uzenet"></label></div>
+			<textarea name="uzenet" id="uzenet" cols="100" rows="10" maxlength="1000"></textarea>
+		</li>
+		<li>
+		<input type="checkbox" name="hirlevel" value="igen" id="hirlev">
+		<label for="hirlev">Szeretnék értestést kapni az oldal legújabb tartalmairól!</label>
+		</li>
+		</ul>
+</fieldset>
+
+
+<p>
+<input type="submit" value="Elküld">
+<input type="reset" value="Törlés">
+</p>
+</form>
+<a href="index.html">Vissza a főoldalra</a>
+</main>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+
+</html>

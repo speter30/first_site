@@ -1,0 +1,264 @@
+
+html {
+  background: url(hatter.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+}
+
+body {
+ 
+ box-shadow: black 0 0 100px;
+ background-color:white;
+ color:black;
+ width:60%;
+ min-width:500px;
+ margin:40px auto;
+ padding:40px;
+ border-radius:40px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header, .header, main, .main, footer {
+	width:100%; 
+	min-width:400px;
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;			
+	margin-bottom:0;		
+	background-color:white;	
+	padding:10px;			
+	
+}
+.leiras {
+	text-align:justify;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+.kipozicional a, .nav#kipozicional {position:absolute;left:-9999px;}	
+.kipozicional a:focus, a.nav#kipozicional:focus {position:static; background:white;
+}
+nav#kipozicional a {position:absolute;left:-9999px;}
+nav#kipozicional a:focus {position:static; background:white;}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-weight:900;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: green;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+a.website:visited {
+  color: darkblue;
+}
+a {
+  text-decoration: underline;
+}
+section {
+  display: block;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+	text-align:center;
+	font-size:45px;
+	font-weight:900;
+}
+h1#tartalom {
+    font-family: Arial, Helvetica, sans-serif;  
+	text-align:center;
+	font-size:45px;
+	font-weight:900;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:32px;
+	text-align:left;
+	font-weight: 600;
+}
+h2#elnokok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:32px;
+	text-align:center;
+	font-weight: 600;
+}
+.slider {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	text-align:center;
+	font-weight: 600;
+	color: white;
+}
+
+.foz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	text-align:center;
+	font-weight: 600;
+	color: black;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+article, .article {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:22px;
+	text-align:justify;
+	font-weight: 500;
+	color: black;
+}
+legend {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:22px;
+	text-align:justify;
+	font-weight: 500;
+	color: black;
+}
+
+carousel-inner img {
+    width: 100%;
+    height: 100%;
+	
+}
+carousel-caption{ 
+	text-align: center; 
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+img {
+	border-radius:8px;
+	height: auto;
+}
+figure {
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+  text-align: center;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-indent: 0;
+}
+figcaption {
+  display:block;
+  caption-side: bottom;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+p {
+text-align:justify;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+p#elnoki {
+text-align:left;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+summary {
+text-align:left;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #333;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+caption {
+	caption-side: top;
+	color: black;
+	}
+fieldset{
+	font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  display: table-row;
+ 
+ }
+li div {
+   display: inline-block;
+
+  }
+ul{
+   list-style: none;
+  }
+
+footer  {
+	border-radius:0 0 10px 10px;
+	color:black;
+	padding:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+footer p {text-align:center}		
